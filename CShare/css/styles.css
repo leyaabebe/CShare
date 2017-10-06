@@ -1,0 +1,322 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	/*background-color:#d15553;*/
+	background-color:black;
+	color:#d15553;
+	font-size:1.3rem;
+}
+
+div .container {
+	height:68vh;
+}
+
+nav {
+	
+	border-bottom:1px dashed black;
+}
+.navbar {
+	height:5vh;
+	opacity:.9;
+	color:white;
+	font-size:.8rem;
+/*	padding:30px;*/
+}
+
+nav a,
+nav a:visited,
+nav a:hover { 
+	color:white; 
+	font-family:'Open Sans', sans-serif;
+}
+
+nav ul {
+	padding-top:30px;
+}
+nav ul li {
+	padding-right:10px;
+}
+
+/*
+
+
+	LANDING PAGE
+
+
+*/
+
+
+img {
+	position:absolute;
+	top:0;
+	left:0;
+	height:100vh;
+	z-index:-1;
+}
+header {
+	width:40vw;
+	margin-left:39vw;
+	margin-top:25vh;
+	/*border:solid 1px white;*/
+	font-family: 'Londrina Solid', cursive;
+}
+header p {
+	padding:0;
+	margin:0;
+}
+
+
+section {
+	width:40vw;
+	margin-left:39vw;
+	margin-top:2vh;
+	/*border: solid 1px white;*/
+}
+
+section p {
+	font-size:1.1rem;
+}
+
+mark {
+	background-color:#d15553;
+	color:black;
+	font-family:'Londrina Solid', cursive;
+}
+
+footer {
+/*	positon:absolute;
+	bottom:0;
+	left:90vw;
+*/	padding-left:15px;
+	color:white;
+	font-size:.45rem;
+}
+
+a, a:hover, a:visited {
+	color:#d15553;
+	font-family:'Londrina Solid', cursive;
+}
+
+/*
+
+
+	FEATURES PAGE
+
+
+
+*/
+
+
+.f-title {
+	color:#eeeeee;
+}
+
+.feature {
+	font-size:.9rem;
+	/*color:#eeeeee;*/
+	/*padding:20px;*/
+}
+
+.hfont {
+	font-family:'Londrina Solid', cursive;
+}
+
+#feature-hdr {}
+
+#feature-sctn {}
+
+
+/*
+
+
+	PROFILE PAGE
+
+
+
+*/
+
+.profile-pic {
+	position:relative;
+	height:auto;
+	width:30%;
+	z-index:1;
+}
+
+.proj {
+	height:300px;
+	width:300px;
+	background-color:#d15553;
+	/*color:white;*/
+	color:black;
+	padding-top: 70px;
+}
+
+ul li .proj {
+	margin-bottom: 10px;
+}
+
+/*
+
+	BREAKPOINTS
+
+
+*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+	header{
+		width:70vw;
+		margin-left:5vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	#feature-hdr {margin-top: 10vh;}
+
+	section{
+		width:70vw;
+		margin-left:5vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	mark {
+		background-color:#eeeeee;
+		color:black;
+		font-family:'Londrina Solid', cursive;
+	}
+
+	a, a:hover, a:visited {
+		color:#eeeeee;
+	}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+	header{
+		width:40vw;
+		margin-left:30vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	#feature-hdr {margin-top: 10vh;}
+
+	section{
+		width:40vw;
+		margin-left:30vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	mark {
+		background-color:#eeeeee;
+		color:black;
+		font-family:'Londrina Solid', cursive;
+	}
+
+	a, a:hover, a:visited {
+		color:#eeeeee;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+	header{
+		width:40vw;
+		margin-left:30vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	#feature-hdr {margin-top: 10vh;}
+
+	section{
+		width:40vw;
+		margin-left:30vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	mark {
+		background-color:#eeeeee;
+		color:black;
+		font-family:'Londrina Solid', cursive;
+	}
+
+	a, a:hover, a:visited {
+		color:#eeeeee;
+	}
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+	header{
+		width:40vw;
+		margin-left:45vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	#feature-hdr { margin-top: 10vh; }
+
+	section{
+		width:40vw;
+		margin-left:45vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	mark {
+		background-color:#eeeeee;
+		color:black;
+		font-family:'Londrina Solid', cursive;
+	}
+
+	a, a:hover, a:visited {
+		color:#eeeeee;
+	}
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+/*	header{
+		width:40vw;
+		margin-left:50vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	section{
+		width:40vw;
+		margin-left:50vw;
+		color:#eeeeee;
+		text-align:center;
+	}
+
+	mark {
+		background-color:#eeeeee;
+		color:black;
+		font-family:'Londrina Solid', cursive;
+	}
+
+	a, a:hover, a:visited {
+		color:#eeeeee;
+	}*/
+	
+	.profile-pic {
+		width:65%;
+	}
+
+	#feature-hdr {
+		margin-top:10vh;
+		margin-left:50vw;
+	}
+	#feature-sctn {
+		margin-left: 50vw;
+	}
+ }
